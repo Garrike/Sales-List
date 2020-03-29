@@ -68,7 +68,7 @@ class _ArticleDescription extends StatelessWidget {
                     Row(
                       children: <Widget>[
                         Text(
-                          '${publishDate.day}/0${publishDate.month}/${publishDate.year}',
+                          '${publishDate.day}/${publishDate.month}/${publishDate.year}',
                           style: const TextStyle(
                             fontSize: 12.0,
                             color: Colors.black87,
