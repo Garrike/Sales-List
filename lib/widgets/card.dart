@@ -66,22 +66,36 @@ class _ArticleDescription extends StatelessWidget {
                       ),
                     ),
                     Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
                         Text(
                           '${publishDate.day}/${publishDate.month}/${publishDate.year}',
                           style: const TextStyle(
                             fontSize: 12.0,
                             color: Colors.black87,
+                            fontWeight: FontWeight.bold
                           ),
                         ),
+                        Expanded(child: Container()),
                         Text(
-                          'Status: $readDuration',
+                          'Status: ',
                           style: const TextStyle(
-                            fontSize: 12.0,
+                            fontSize: 14.0,
                             color: Colors.black,
                           ),
                         ),
+                        Container(
+                          width: 102,
+                          child: Text(
+                            '$readDuration',
+                            maxLines: 2,
+                            overflow: TextOverflow.ellipsis,
+                            style: const TextStyle(
+                              fontSize: 14.0,
+                              color: Colors.black,
+                              fontWeight: FontWeight.bold
+                            ),
+                          ),
+                        )
                       ],
                     ),
                   ],
