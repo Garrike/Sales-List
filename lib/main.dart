@@ -56,7 +56,7 @@ class _PedidosCTAPageState extends State<PedidosCTAPage> {
                     child: CustomListItemTwo(
                       title: '#${listVendas[index].id}  Cliente: ${listVendas[index].cliente}',
                       subtitle:
-                        '${listVendas[index].endereco}, ${listVendas[index].numero} - ${listVendas[index].bairro}, ${listVendas[index].cidade} - ${listVendas[index].estado}',
+                        '${listVendas[index].endereco}, ${listVendas[index].numero} - ${listVendas[index].bairro}, ${listVendas[index].cidade} - ${listVendas[index].estado}, ${listVendas[index].cep}',
                       author: '${listVendas[index].produtor}',
                       publishDate: listVendas[index].dataVenda,
                       readDuration: '${listVendas[index].statusPedido}',

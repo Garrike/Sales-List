@@ -15,7 +15,8 @@ Future<List<Venda>> consultaVendas () async {
       'Gabriel',
       'Elmo',
       'Não Entregue',
-      'MT'
+      'MT',
+      '78090-000'
     ),
   );
   vendas.add(
@@ -31,7 +32,8 @@ Future<List<Venda>> consultaVendas () async {
       'Gabriel',
       'Elmo',
       'Não Entregue',
-      'MT'
+      'MT',
+      '78090-000'
     ),
   );
   vendas.add(
@@ -47,7 +49,8 @@ Future<List<Venda>> consultaVendas () async {
       'Gabriel',
       'Elmo',
       'Em Separação',
-      'MT'
+      'MT',
+      '78090-000'
     ),
   );
   vendas.add(
@@ -63,7 +66,8 @@ Future<List<Venda>> consultaVendas () async {
       'Gabriel',
       'Elmo',
       'Entregue',
-      'MT'
+      'MT',
+      '78090-000'
     ),
   );
   await new Future.delayed(new Duration(seconds: 2));

@@ -1,6 +1,6 @@
 class Venda {
   int id;
-  String observacoesEntrega, cidade, bairro, complemento, numero, endereco, statusPedido, cliente, produtor, estado;
+  String observacoesEntrega, cidade, bairro, complemento, numero, endereco, statusPedido, cliente, produtor, estado, cep;
   DateTime dataVenda;
 
   Venda(
@@ -15,6 +15,7 @@ class Venda {
     this.cliente,
     this.produtor,
     this.statusPedido,
-    this.estado
+    this.estado,
+    this.cep
   );
 }
